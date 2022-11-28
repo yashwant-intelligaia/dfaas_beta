@@ -6,6 +6,10 @@ const SignupSuccess = () => {
       <Box height="xsmall" width="xsmall">
         <Image fit="cover" src="/images/signup-success.png" />
       </Box>
+      <Box flex direction="row" gap="small">
+      <Box width="12px">
+        <Image fit="contain" src="/images/roadmap.png" />
+      </Box>
       <Box margin={{ top: "large" }} width="575px">
         <Text size="xxlarge" color="text-strong">
           Your registration is completed.
@@ -36,6 +40,7 @@ const SignupSuccess = () => {
             to access the Beta program.
           </Text>
         </Box>
+      </Box>
       </Box>
     </Box>
   );
