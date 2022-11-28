@@ -1,10 +1,9 @@
-import React from // useState
-"react";
+import React from "react"; // useState
 // import { Box, Heading } from "grommet";
 // import Logo from "./logo.svg";
 import "./App.sass";
 // import SignUp from "./components/signupForm";
-import { SignupPage } from "./pages/Signup";
+import { SignupPage, SignupSuccess, WarningPage } from "./pages";
 
 function App() {
   // const [userData, setUserData] = useState({
@@ -23,7 +22,8 @@ function App() {
     //     <SignUp />
     //   </Box>
     // </Box>
-    <SignupPage />
+    // <SignupPage />
+    <WarningPage />
   );
 }
 
