@@ -2,8 +2,8 @@ import { Box, Image, Text, Anchor } from "grommet";
 
 const SignupSuccess = () => {
   return (
-    <Box flex align="center" margin={{ top: "medium" }} alignSelf="center">
-      <Box height="small" width="small">
+    <Box flex align="center" margin={{ top: "medium" }}>
+      <Box height="xsmall" width="xsmall">
         <Image fit="cover" src="/images/signup-success.png" />
       </Box>
       <Box margin={{ top: "large" }} width="575px">
