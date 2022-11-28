@@ -2,6 +2,7 @@ import React from "react"; // useState
 // import { Box, Heading } from "grommet";
 // import Logo from "./logo.svg";
 import "./App.sass";
+import { DfHeaderbar } from "./components";
 // import SignUp from "./components/signupForm";
 import { SignupPage, SignupSuccess, WarningPage } from "./pages";
 
@@ -23,7 +24,11 @@ function App() {
     //   </Box>
     // </Box>
     // <SignupPage />
-    <WarningPage />
+    <>
+      <DfHeaderbar />
+      <SignupSuccess />
+      {/* <WarningPage /> */}
+    </>
   );
 }
 

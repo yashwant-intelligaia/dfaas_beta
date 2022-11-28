@@ -5,3 +5,4 @@ export * from "./DfTextField";
 export * from "./DfModal";
 export * from "./DfSelectField";
 export * from "./DfTooltip";
+export * from "./DfHeaderbar";
