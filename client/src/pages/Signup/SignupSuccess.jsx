@@ -23,7 +23,7 @@ width: 590px;
   width: 2px;
   height: calc(100% - 20px);
   background: red;
-  top: 25px;
+  top: 23px;
   position: absolute;
   left: 4px;
 }
